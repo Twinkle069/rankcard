@@ -1,6 +1,6 @@
 # rankcard
 
-A simple tool create a beautiful rankcard using canvas!
+A simple tool to create a beautiful rankcard using canvas!
 
 ```
 npm install rankcard
