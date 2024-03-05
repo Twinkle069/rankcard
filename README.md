@@ -1,10 +1,12 @@
 # rankcard
 
+A simple tool create a beautiful rankcard using canvas!
+
 ```
 npm install rankcard
 ```
 
-## Usage
+## Example
 
  ```js
  (async () => {
@@ -15,7 +17,7 @@ npm install rankcard
         .setName("Arya")
         .setLevel("Level 69")
         .setColor("auto")
-        .setBrightness(100)
+        .setBrightness(60)
         .setAvatar("https://i.imgur.com/LENSTKE.png")
         .setProgress(69)
         .setRank("1")
@@ -27,7 +29,7 @@ npm install rankcard
     const cardBuffer = await card.build();
 
     fs.writeFileSync(`RankCard.png`, cardBuffer);
-    console.log("Done!");
+    // console.log("Success!");
 })()
  ```
  Preview: 
