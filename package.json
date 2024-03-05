@@ -1,6 +1,6 @@
 {
   "name": "rankcard",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Experience your Discord bot's rank in a visual format.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -34,12 +34,12 @@
   "author": "Twinkle069",
   "license": "MIT",
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.45",
+    "@napi-rs/canvas": "^0.1.51",
     "rc-color": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.5.0",
-    "typescript": "^5.1.6"
+    "@types/node": "20.11.24",
+    "typescript": "^5.3.3"
   },
   "repository": {
     "type": "git",
