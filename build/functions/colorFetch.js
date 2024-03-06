@@ -1,4 +1,4 @@
-const { getColorFromURL } = require('color-thief-node');
+const { getColorFromURL } = require('rc-color');
 const { rgbToHex } = require('./rgbToHex');
 const { adjustBrightness } = require('./adjustBrightness');
 
