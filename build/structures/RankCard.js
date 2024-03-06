@@ -2,12 +2,12 @@ const canvas = require("@napi-rs/canvas");
 const { colorFetch } = require("../functions/colorFetch");
 
 
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/circularstd-black.otf`, "circular-std");
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/notosans-jp-black.ttf`, "noto-sans-jp");
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/notosans-black.ttf`, "noto-sans");
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/notoemoji-bold.ttf`, "noto-emoji");
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/notosans-kr-black.ttf`, "noto-sans-kr");
-canvas.GlobalFonts.registerFromPath(`node_modules/musicard-bun/build/structures/font/Chewy-Regular.ttf`, "chewy");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/circularstd-black.otf`, "circular-std");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/notosans-jp-black.ttf`, "noto-sans-jp");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/notosans-black.ttf`, "noto-sans");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/notoemoji-bold.ttf`, "noto-emoji");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/notosans-kr-black.ttf`, "noto-sans-kr");
+canvas.GlobalFonts.registerFromPath(`node_modules/rankcard/build/structures/font/Chewy-Regular.ttf`, "chewy");
 
 class RankCard {
     constructor(options) {
