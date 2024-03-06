@@ -9,20 +9,20 @@ npm install rankcard
 ## Example
 
  ```js
- (async () => {
+    // Import module
     const { RankCard } = require("rankcard");
     const fs = require("fs");
 
     const card = new RankCard()
         .setName("Arya")
-        .setLevel("Level 69")
+        .setLevel("Level 6")
         .setColor("auto")
-        .setBrightness(60)
-        .setAvatar("https://i.imgur.com/LENSTKE.png")
-        .setProgress(69)
-        .setRank("1")
-        .setCurrentXp("589")
-        .setRequiredXp("139800")
+        .setBrightness(69)
+        .setAvatar("https://imgur.com/NJKVN2W.png")
+        .setProgress(50)
+        .setRank("3")
+        .setCurrentXp("1800")
+        .setRequiredXp("3600")
         .setShowXp(true);
      
 
@@ -34,4 +34,4 @@ npm install rankcard
  ```
  Preview: 
  
-  ![RankCard](https://i.imgur.com/v5PpYrx.png)
+  ![RankCard](https://imgur.com/NJKVN2W.png)
