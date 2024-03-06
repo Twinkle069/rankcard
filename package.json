@@ -1,11 +1,9 @@
 {
   "name": "rankcard",
-  "version": "1.0.4",
-  "description": "Experience your Discord bot's rank in a visual format.",
+  "version": "1.0.7",
+  "description": "A simple tool to create beautiful rankcard using canvas",
   "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "scripts": {
-    "test": "node example/test"
+  "types": "build/index.d.ts"
   },
   "files": [
     "build",
@@ -34,12 +32,8 @@
   "author": "Twinkle069",
   "license": "MIT",
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.51",
-    "color-thief-node": "^1.0.4"
-  },
-  "devDependencies": {
-    "@types/node": "20.11.24",
-    "typescript": "^5.3.3"
+    "@napi-rs/canvas": "^0.1.45",
+    "rc-color": "^1.0.0"
   },
   "repository": {
     "type": "git",
